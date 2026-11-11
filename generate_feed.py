@@ -10,7 +10,7 @@ Includes:
     - Article title
     - Article URL
     - NASA summary
-    - NASA thumbnail
+    - NASA thumbnail (URL encoded)
     - Publication date
 
 Output:
@@ -20,10 +20,11 @@ Output:
 import sys
 import html
 import re
+
 from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, quote
 from xml.etree.ElementTree import (
     Element,
     SubElement,
@@ -158,7 +159,14 @@ def get_article(url):
 
     title = get_meta(soup, "og:title")
     summary = get_meta(soup, "og:description")
-    image = get_meta(soup, "og:image")
+
+    # Encode special characters in NASA image URLs.
+    # Example: curly apostrophe becomes %E2%80%99.
+    image = quote(
+        get_meta(soup, "og:image"),
+        safe=":/"
+    )
+
     published = get_meta(
         soup, "article:published_time"
     )
