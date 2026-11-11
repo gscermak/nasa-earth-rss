@@ -5,7 +5,15 @@
     <link>https://science.nasa.gov/earth/earth-observatory/image-of-the-day/</link>
     <description>The six most recent NASA Earth Observatory Images of the Day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Nov 2026 01:04:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 19:14:34 +0000</lastBuildDate>
+    <item>
+      <title>Water Surges Into Navajo Reservoir</title>
+      <link>https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/</guid>
+      <pubDate>Wed, 11 Nov 2026 00:01:00 -0500</pubDate>
+      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/water-surges-into-navajo-reservoir/navajoreservoir_oli2_20261107_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Water Surges Into Navajo Reservoir"&gt;&lt;p&gt;Rounds of heavy rain in the U.S. Southwest flooded rivers and rapidly raised New Mexico’s second-largest reservoir.&lt;/p&gt;</description>
+      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/water-surges-into-navajo-reservoir/navajoreservoir_oli2_20261107_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
+    </item>
     <item>
       <title>Autumn Mornings Bring Valley Fog</title>
       <link>https://science.nasa.gov/earth/earth-observatory/autumn-mornings-bring-valley-fog/</link>
@@ -45,14 +53,6 @@
       <pubDate>Wed, 04 Nov 2026 00:01:00 -0500</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/before-the-dawn-in-america%E2%80%99s-heartland/ISS075-E-226709_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Before the Dawn in America’s Heartland"&gt;&lt;p&gt;With hardly a cloud in sight, astronauts had a sweeping view of nighttime lights in the U.S. Midwest.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/before-the-dawn-in-america%E2%80%99s-heartland/ISS075-E-226709_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
-    </item>
-    <item>
-      <title>The Pacific's Busy Storm Season</title>
-      <link>https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season/</link>
-      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/the-pacifics-busy-storm-season/</guid>
-      <pubDate>Tue, 03 Nov 2026 00:01:00 -0500</pubDate>
-      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-pacific%27s-busy-storm-season/storminfa_epic_20261029_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="The Pacific&amp;#x27;s Busy Storm Season"&gt;&lt;p&gt;Super Typhoon In-fa developed an unusually large eye, and the remnants of Typhoon Champi transitioned into an extratropical storm that targeted Alaska.&lt;/p&gt;</description>
-      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-pacific%27s-busy-storm-season/storminfa_epic_20261029_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
   </channel>
 </rss>
