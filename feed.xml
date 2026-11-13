@@ -5,7 +5,15 @@
     <link>https://science.nasa.gov/earth/earth-observatory/image-of-the-day/</link>
     <description>The six most recent NASA Earth Observatory Images of the Day.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Nov 2026 19:32:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 19:12:29 +0000</lastBuildDate>
+    <item>
+      <title>A Global Rebound for Mangroves</title>
+      <link>https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/</guid>
+      <pubDate>Fri, 13 Nov 2026 00:01:00 -0500</pubDate>
+      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_oli2_20260202_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="A Global Rebound for Mangroves"&gt;&lt;p&gt;After decades of decline, this ecologically significant type of forest is making a comeback.&lt;/p&gt;</description>
+      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_oli2_20260202_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
+    </item>
     <item>
       <title>Scotland’s Flow Country</title>
       <link>https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/</link>
@@ -45,14 +53,6 @@
       <pubDate>Fri, 06 Nov 2026 00:01:00 -0500</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/taking-a-gander-at-utah%E2%80%99s-goosenecks/ISS075-E-188830_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Taking a Gander at Utah’s Goosenecks"&gt;&lt;p&gt;The San Juan River has carved deep, improbably curvy meanders into the desert landscape.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/taking-a-gander-at-utah%E2%80%99s-goosenecks/ISS075-E-188830_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
-    </item>
-    <item>
-      <title>Cyprus: Island of Snakes, Cats, and Ophiolites</title>
-      <link>https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites/</link>
-      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/cyprus-island-of-snakes-cats-and-ophiolites/</guid>
-      <pubDate>Thu, 05 Nov 2026 00:01:00 -0500</pubDate>
-      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/island-of-snakes%2C-cats%2C-and-ophiolites/akrotirisaltlake_oli_20261010_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Cyprus: Island of Snakes, Cats, and Ophiolites"&gt;&lt;p&gt;The third-largest island in the Mediterranean Sea exposes an ancient piece of the ocean floor and hosts a clowder of cats.&lt;/p&gt;</description>
-      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/island-of-snakes%2C-cats%2C-and-ophiolites/akrotirisaltlake_oli_20261010_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
   </channel>
 </rss>
