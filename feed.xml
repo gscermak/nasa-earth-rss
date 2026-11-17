@@ -5,7 +5,15 @@
     <link>https://science.nasa.gov/earth/earth-observatory/image-of-the-day/</link>
     <description>The six most recent NASA Earth Observatory Images of the Day.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Nov 2026 21:38:01 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 20:27:25 +0000</lastBuildDate>
+    <item>
+      <title>Tossing Fireworks from Cloud to Cloud</title>
+      <link>https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud/</guid>
+      <pubDate>Tue, 17 Nov 2026 00:01:00 -0500</pubDate>
+      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tossing-fireworks-from-cloud-to-cloud/ISS075-E-250951_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Tossing Fireworks from Cloud to Cloud"&gt;&lt;p&gt;For many astronauts, the spectacular sight of lightning stands out when looking back at Earth from the International Space Station.&lt;/p&gt;</description>
+      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tossing-fireworks-from-cloud-to-cloud/ISS075-E-250951_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
+    </item>
     <item>
       <title>The Last Ice on Puncak Jaya</title>
       <link>https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/</link>
@@ -45,14 +53,6 @@
       <pubDate>Tue, 10 Nov 2026 00:00:00 -0500</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/autumn-mornings-bring-valley-fog/usvalleyfog_tmo_20261108_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Autumn Mornings Bring Valley Fog"&gt;&lt;p&gt;Low clouds trace the branching valleys of the Appalachian Plateau and the Cumberland River, then burn off by afternoon.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/autumn-mornings-bring-valley-fog/usvalleyfog_tmo_20261108_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
-    </item>
-    <item>
-      <title>Ozone Hole Reaches Its 2026 Maximum</title>
-      <link>https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/</link>
-      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 -0500</pubDate>
-      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/ozone-hole-reaches-its-2026-maximum/ozone_geos5_20260918_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Ozone Hole Reaches Its 2026 Maximum"&gt;&lt;p&gt;The ozone hole ranked seventh largest by area in 48 years of monitoring, but it was not as deep as other large holes on record.&lt;/p&gt;</description>
-      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/ozone-hole-reaches-its-2026-maximum/ozone_geos5_20260918_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
   </channel>
 </rss>
