@@ -5,7 +5,15 @@
     <link>https://science.nasa.gov/earth/earth-observatory/image-of-the-day/</link>
     <description>The six most recent NASA Earth Observatory Images of the Day.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Nov 2026 20:27:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 19:57:44 +0000</lastBuildDate>
+    <item>
+      <title>Sierra Snow Season Spins Up</title>
+      <link>https://science.nasa.gov/earth/earth-observatory/sierra-snow-season-spins-up/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/sierra-snow-season-spins-up/</guid>
+      <pubDate>Wed, 18 Nov 2026 00:01:00 -0500</pubDate>
+      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sierra-snow-season-spins-up/sierranevada_tmo_20261114_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Sierra Snow Season Spins Up"&gt;&lt;p&gt;A widespread, early-season snowstorm blanketed California’s mountains in white in mid-November 2026.&lt;/p&gt;</description>
+      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sierra-snow-season-spins-up/sierranevada_tmo_20261114_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
+    </item>
     <item>
       <title>Tossing Fireworks from Cloud to Cloud</title>
       <link>https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud/</link>
@@ -45,14 +53,6 @@
       <pubDate>Wed, 11 Nov 2026 00:01:00 -0500</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/water-surges-into-navajo-reservoir/navajoreservoir_oli2_20261107_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Water Surges Into Navajo Reservoir"&gt;&lt;p&gt;Rounds of heavy rain in the U.S. Southwest flooded rivers and rapidly raised New Mexico’s second-largest reservoir.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/water-surges-into-navajo-reservoir/navajoreservoir_oli2_20261107_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
-    </item>
-    <item>
-      <title>Autumn Mornings Bring Valley Fog</title>
-      <link>https://science.nasa.gov/earth/earth-observatory/autumn-mornings-bring-valley-fog/</link>
-      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/autumn-mornings-bring-valley-fog/</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 -0500</pubDate>
-      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/autumn-mornings-bring-valley-fog/usvalleyfog_tmo_20261108_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Autumn Mornings Bring Valley Fog"&gt;&lt;p&gt;Low clouds trace the branching valleys of the Appalachian Plateau and the Cumberland River, then burn off by afternoon.&lt;/p&gt;</description>
-      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/autumn-mornings-bring-valley-fog/usvalleyfog_tmo_20261108_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
   </channel>
 </rss>
