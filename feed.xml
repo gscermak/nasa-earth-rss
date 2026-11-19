@@ -5,7 +5,15 @@
     <link>https://science.nasa.gov/earth/earth-observatory/image-of-the-day/</link>
     <description>The six most recent NASA Earth Observatory Images of the Day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Nov 2026 19:57:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 19:56:22 +0000</lastBuildDate>
+    <item>
+      <title>El Niño Rains Paint the Atacama</title>
+      <link>https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/</guid>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 -0500</pubDate>
+      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-ni%C3%B1o-rains-paint-the-atacama/atacamabloom_oli2_20261024_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="El Niño Rains Paint the Atacama"&gt;&lt;p&gt;Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the satellite era.&lt;/p&gt;</description>
+      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-ni%C3%B1o-rains-paint-the-atacama/atacamabloom_oli2_20261024_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
+    </item>
     <item>
       <title>Sierra Snow Season Spins Up</title>
       <link>https://science.nasa.gov/earth/earth-observatory/sierra-snow-season-spins-up/</link>
@@ -45,14 +53,6 @@
       <pubDate>Thu, 12 Nov 2026 00:01:00 -0500</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/scotland%E2%80%99s-flow-country-/scotland_flowcountry_oli2_20240304_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Scotland’s Flow Country"&gt;&lt;p&gt;Blanket bogs in the Scottish Highlands store vast amounts of carbon.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/scotland%E2%80%99s-flow-country-/scotland_flowcountry_oli2_20240304_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
-    </item>
-    <item>
-      <title>Water Surges Into Navajo Reservoir</title>
-      <link>https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/</link>
-      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/</guid>
-      <pubDate>Wed, 11 Nov 2026 00:01:00 -0500</pubDate>
-      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/water-surges-into-navajo-reservoir/navajoreservoir_oli2_20261107_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Water Surges Into Navajo Reservoir"&gt;&lt;p&gt;Rounds of heavy rain in the U.S. Southwest flooded rivers and rapidly raised New Mexico’s second-largest reservoir.&lt;/p&gt;</description>
-      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/water-surges-into-navajo-reservoir/navajoreservoir_oli2_20261107_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
   </channel>
 </rss>
