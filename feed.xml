@@ -5,7 +5,15 @@
     <link>https://science.nasa.gov/earth/earth-observatory/image-of-the-day/</link>
     <description>The six most recent NASA Earth Observatory Images of the Day.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Nov 2026 19:56:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 19:37:15 +0000</lastBuildDate>
+    <item>
+      <title>The Stormy Southwest Pacific</title>
+      <link>https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/</guid>
+      <pubDate>Fri, 20 Nov 2026 00:01:00 -0500</pubDate>
+      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-stormy-southwest-pacific--/cyclonexavier_amo_20261116_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="The Stormy Southwest Pacific"&gt;&lt;p&gt;Tropical Cyclone Xavier launched the basin’s storm season with a bang.&lt;/p&gt;</description>
+      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-stormy-southwest-pacific--/cyclonexavier_amo_20261116_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
+    </item>
     <item>
       <title>El Niño Rains Paint the Atacama</title>
       <link>https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/</link>
@@ -45,14 +53,6 @@
       <pubDate>Fri, 13 Nov 2026 00:01:00 -0500</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_oli2_20260202_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="A Global Rebound for Mangroves"&gt;&lt;p&gt;After decades of decline, this ecologically significant type of forest is making a comeback.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_oli2_20260202_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
-    </item>
-    <item>
-      <title>Scotland’s Flow Country</title>
-      <link>https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/</link>
-      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/scotlands-flow-country/</guid>
-      <pubDate>Thu, 12 Nov 2026 00:01:00 -0500</pubDate>
-      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/scotland%E2%80%99s-flow-country-/scotland_flowcountry_oli2_20240304_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Scotland’s Flow Country"&gt;&lt;p&gt;Blanket bogs in the Scottish Highlands store vast amounts of carbon.&lt;/p&gt;</description>
-      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/scotland%E2%80%99s-flow-country-/scotland_flowcountry_oli2_20240304_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
   </channel>
 </rss>
