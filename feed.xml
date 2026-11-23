@@ -5,7 +5,15 @@
     <link>https://science.nasa.gov/earth/earth-observatory/image-of-the-day/</link>
     <description>The six most recent NASA Earth Observatory Images of the Day.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Nov 2026 19:01:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 23:23:26 +0000</lastBuildDate>
+    <item>
+      <title>Laser Focus at the Top of the World</title>
+      <link>https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/</guid>
+      <pubDate>Mon, 23 Nov 2026 00:01:00 -0500</pubDate>
+      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/laser-focus-at-the-top-of-the-world/svalbardzm_oli2_20260730_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Laser Focus at the Top of the World"&gt;&lt;p&gt;A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.&lt;/p&gt;</description>
+      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/laser-focus-at-the-top-of-the-world/svalbardzm_oli2_20260730_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
+    </item>
     <item>
       <title>The Stormy Southwest Pacific</title>
       <link>https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/</link>
@@ -45,14 +53,6 @@
       <pubDate>Mon, 16 Nov 2026 00:00:00 -0500</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_oli2_20261019_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="The Last Ice on Puncak Jaya"&gt;&lt;p&gt;Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_oli2_20261019_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
-    </item>
-    <item>
-      <title>A Global Rebound for Mangroves</title>
-      <link>https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/</link>
-      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/a-global-rebound-for-mangroves/</guid>
-      <pubDate>Fri, 13 Nov 2026 00:01:00 -0500</pubDate>
-      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_oli2_20260202_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="A Global Rebound for Mangroves"&gt;&lt;p&gt;After decades of decline, this ecologically significant type of forest is making a comeback.&lt;/p&gt;</description>
-      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/a-global-rebound-for-mangroves/burmamangroves_oli2_20260202_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
   </channel>
 </rss>
