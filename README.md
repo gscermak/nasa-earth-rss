@@ -1,5 +1,7 @@
 # NASA Earth Observatory Image of the Day RSS Feed
 
+[![Valid RSS](assets/valid-rss-rogers.png)](https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fgscermak.github.io%2Fnasa-earth-rss%2Ffeed.xml)
+
 ## Background and Motivation
 
 The official NASA Earth Observatory Image of the Day RSS feed appeared to stop working in late September 2026. As a regular reader of Earth Observatory content through the start.me platform, I decided to develop an alternative RSS feed to restore access to this valuable Earth science resource. A subsequent check in November 2026 confirmed that the official feed remained nonfunctional within start.me. Other RSS readers were not tested.
@@ -32,6 +34,8 @@ Copy this URL into an RSS reader, such as start.me, to receive the latest NASA E
 - Preserves the existing feed if generation or validation fails.
 - Requires no dedicated server or paid hosting service under the current public repository configuration.
 - Provides direct links to the original NASA content.
+- Successfully validated using the W3C Feed Validation Service.
+- Operationally verified using start.me.
 
 ## Application Architecture
 
@@ -64,7 +68,7 @@ The application uses the following Python packages:
 8. The temporary RSS file undergoes structural validation.
 9. The existing feed.xml file is replaced following successful validation.
 10. The updated file is committed to the GitHub repository.
-11. GitHub Pages makes the updated RSS feed publicly accessible.
+11. GitHub Pages hosts the publicly accessible RSS feed.
 
 The automated workflow is scheduled to run daily at 12:00 UTC (4 AM PST or 5 AM PDT). It can also be initiated manually through GitHub Actions.
 
@@ -75,6 +79,8 @@ nasa-earth-rss/
 ├── .github/
 │   └── workflows/
 │       └── update-feed.yml
+├── assets/
+│   └── valid-rss-rogers.png
 ├── .gitignore
 ├── LICENSE
 ├── README.md
@@ -89,6 +95,7 @@ nasa-earth-rss/
 | feed.xml | Generated RSS 2.0 feed. |
 | requirements.txt | Required third-party Python packages. |
 | update-feed.yml | GitHub Actions automation workflow. |
+| valid-rss-rogers.png | Official W3C RSS validation badge. |
 | .gitignore | Identifies files excluded from version control. |
 | LICENSE | MIT software license. |
 | README.md | Project documentation. |
@@ -206,21 +213,11 @@ Validation checks include:
 - Media RSS thumbnail elements.
 - Atom self-reference URL and content type.
 
-The locally generated RSS feed was independently validated on November 24, 2026, using the W3C Feed Validation Service and confirmed to be a valid RSS 2.0 feed.
-
-The W3C recommendation to include an Atom self-reference was subsequently implemented. Final verification of the self-reference against the published feed address is pending deployment of the revised application.
-
-W3C Feed Validation Service:
-
-https://validator.w3.org/feed/
-
-Validate the published RSS feed:
-
-https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fgscermak.github.io%2Fnasa-earth-rss%2Ffeed.xml
-
 ### Functional Testing
 
-The original and revised versions of the application were executed and their results compared. Both versions identified 21 candidate articles and generated the same six RSS entries, including identical article titles, publication dates, article URLs, and image URLs.
+The original and revised versions of the application were executed and their results compared on November 24, 2026.
+
+Both versions identified 21 candidate articles and generated the same six RSS entries, including identical article titles, publication dates, article URLs, and image URLs.
 
 The revised application successfully performed internal RSS structural validation and preserved the correct encoding of special characters in image URLs.
 
@@ -300,7 +297,15 @@ Before each test, a checksum was calculated:
 sha256sum feed.xml > /tmp/nasa-feed-checksum.txt
 ```
 
-After each test, the checksum was verified:
+Immediately after each simulated application failure, the application exit status was examined:
+
+```bash
+echo $?
+```
+
+Both tests returned an exit status of 1, indicating unsuccessful application execution.
+
+The checksum was then verified:
 
 ```bash
 sha256sum -c /tmp/nasa-feed-checksum.txt
@@ -311,14 +316,6 @@ Both tests returned:
 ```text
 feed.xml: OK
 ```
-
-The application exit status was examined using:
-
-```bash
-echo $?
-```
-
-This command was executed immediately after each simulated application failure. Both tests returned an exit status of 1, indicating unsuccessful application execution.
 
 Following the validation failure test, the Linux find utility was used to check for matching temporary RSS files:
 
@@ -340,6 +337,57 @@ Reference:
 
 https://docs.python.org/3/library/unittest.mock.html
 
+### GitHub Actions Operational Testing
+
+The revised application was deployed to GitHub on November 24, 2026.
+
+The GitHub Actions workflow was manually executed to verify application functionality in the GitHub cloud environment.
+
+The workflow completed successfully in 26 seconds.
+
+| Workflow Step | Execution Time | Result |
+| --- | ---: | --- |
+| Set up job | 1 second | PASS |
+| Checkout repository | 1 second | PASS |
+| Set up Python | Less than 1 second | PASS |
+| Install dependencies | 2 seconds | PASS |
+| Generate RSS feed | 16 seconds | PASS |
+| Commit updated feed | 2 seconds | PASS |
+| Post-execution cleanup | 1 second | PASS |
+| Overall workflow | 26 seconds | PASS |
+
+The workflow successfully generated and committed an updated RSS feed.
+
+One nonfatal workflow warning was reported. Its review remains a maintenance task.
+
+### Independent RSS Validation
+
+The locally generated RSS feed was independently validated on November 24, 2026, using the W3C Feed Validation Service and confirmed to be a valid RSS 2.0 feed.
+
+The W3C recommendation to include an Atom self-reference was subsequently implemented.
+
+Following deployment, the publicly accessible RSS feed was validated directly using its GitHub Pages URL.
+
+The W3C Feed Validation Service returned:
+
+> Congratulations! This is a valid RSS feed.
+
+No errors or recommendations were displayed during the published feed validation.
+
+[![Valid RSS](assets/valid-rss-rogers.png)](https://validator.w3.org/feed/check.cgi?url=https%3A%2F%2Fgscermak.github.io%2Fnasa-earth-rss%2Ffeed.xml)
+
+Click the badge to independently validate the published RSS feed.
+
+W3C Feed Validation Service:
+
+https://validator.w3.org/feed/
+
+### RSS Reader Acceptance Testing
+
+The published RSS feed was tested using the start.me platform on November 24, 2026.
+
+The feed operated successfully, confirming that the application addressed the original information accessibility problem that motivated its development.
+
 ### Quality Assurance Summary
 
 | Test | Result |
@@ -348,15 +396,22 @@ https://docs.python.org/3/library/unittest.mock.html
 | Article metadata extraction | PASS |
 | Special character URL encoding | PASS |
 | Internal RSS structural validation | PASS |
-| W3C RSS 2.0 validation | PASS |
+| Local W3C RSS 2.0 validation | PASS |
 | Atom self-reference generation | PASS |
 | Insufficient article failure recovery | PASS |
 | Simulated validation failure recovery | PASS |
 | Existing feed integrity verification | PASS |
 | Git whitespace validation | PASS |
-| Revised GitHub Actions execution | PENDING |
-| Published RSS feed validation | PENDING |
-| Published feed compatibility with start.me | PENDING |
+| Git repository synchronization | PASS |
+| GitHub deployment | PASS |
+| Revised GitHub Actions execution | PASS |
+| Automated RSS repository update | PASS |
+| GitHub Pages public accessibility | PASS |
+| Published W3C RSS validation | PASS |
+| Published Atom self-reference validation | PASS |
+| Published feed compatibility with start.me | PASS |
+
+All primary functional and operational acceptance tests were successfully completed on November 24, 2026.
 
 ## Error Handling and Reliability
 
@@ -393,6 +448,8 @@ Python package versions are not currently pinned to specific releases.
 
 Failure recovery testing covered insufficient article availability and a simulated RSS validation failure. Other potential failure scenarios, including network interruptions, filesystem errors, and concurrent external modifications, have not been independently tested.
 
+Although public feed accessibility and automated repository updates were verified, synchronization between the latest automated commit and the published GitHub Pages feed was not independently compared byte-for-byte.
+
 ## Scientific and Educational Value
 
 NASA Earth Observatory provides valuable scientific information about Earth's atmosphere, oceans, land surfaces, ecosystems, climate, and natural hazards.
@@ -427,12 +484,14 @@ Generative AI assisted with:
 - Development of fault injection tests.
 - Evaluation of failure recovery test results.
 - Software reliability assessment.
+- Git repository management.
+- Operational acceptance testing.
 
 The human developer established the project objectives, directed the development process, executed the software, evaluated results, and verified application functionality.
 
 The project illustrates an applied approach to human-AI collaboration in scientific software engineering, emphasizing simplicity, transparency, maintainability, and validation.
 
-The development process also demonstrates that generative AI can assist not only with software implementation but also with quality assurance, defensive programming, software testing, and technical documentation.
+The development process also demonstrates that generative AI can assist not only with software implementation but also with quality assurance, defensive programming, software testing, deployment, and technical documentation.
 
 ## Data Source and Attribution
 
@@ -458,7 +517,7 @@ The original software and documentation are distributed under the MIT License.
 
 See the [LICENSE](LICENSE) file for details.
 
-The MIT License does not extend to NASA imagery, article summaries, or third-party content referenced or distributed through the generated RSS feed. Such content remains subject to its applicable rights and usage conditions.
+The MIT License does not extend to NASA imagery, article summaries, third-party content referenced or distributed through the generated RSS feed, or the W3C validation badge. Such content remains subject to its applicable rights and usage conditions.
 
 ## Author
 
@@ -470,6 +529,6 @@ Developed collaboratively with OpenAI ChatGPT.
 
 - NASA Earth Observatory for providing publicly accessible Earth science information and imagery.
 - GitHub for providing repository hosting, automated workflows, and web publication services.
-- The World Wide Web Consortium (W3C) for providing the Feed Validation Service.
+- The World Wide Web Consortium (W3C) for providing the Feed Validation Service and RSS validation badge.
 - The Python development community for providing software development and testing libraries.
-- OpenAI ChatGPT for assistance with application development, testing, troubleshooting, and documentation.
+- OpenAI ChatGPT for assistance with application development, testing, troubleshooting, deployment, and documentation.
