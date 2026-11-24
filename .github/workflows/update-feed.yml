@@ -1,3 +1,12 @@
+# NASA Earth Observatory RSS Feed
+#
+# Author: Greg Cermak
+# Developed collaboratively with OpenAI ChatGPT.
+#
+# Automatically generates and publishes an RSS 2.0 feed
+# containing the six most recent Earth Observatory
+# Images of the Day.
+
 name: Update NASA Earth Observatory RSS
 
 on:
@@ -5,30 +14,47 @@ on:
     # Daily at 12:00 UTC (4 AM PST / 5 AM PDT)
     - cron: "0 12 * * *"
 
+  # Allow manual execution from GitHub Actions.
   workflow_dispatch:
 
+# Allow the workflow to commit the generated RSS feed.
 permissions:
   contents: write
 
+# Prevent overlapping feed update workflows.
+concurrency:
+  group: nasa-earth-rss-update
+  cancel-in-progress: false
+
 jobs:
   update-feed:
+
     runs-on: ubuntu-latest
 
+    timeout-minutes: 15
+
     steps:
+
+      # Retrieve the repository.
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Configure the Python environment.
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: "pip"
 
+      # Install the required Python packages.
       - name: Install dependencies
-        run: pip install requests beautifulsoup4
+        run: python -m pip install -r requirements.txt
 
+      # Generate and internally validate the RSS feed.
       - name: Generate RSS feed
         run: python generate_feed.py
 
+      # Commit the successfully generated RSS feed.
       - name: Commit updated feed
         run: |
           git config user.name "github-actions[bot]"

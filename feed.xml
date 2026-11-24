@@ -1,16 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
-<rss xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
   <channel>
     <title>NASA Earth Observatory - Image of the Day</title>
     <link>https://science.nasa.gov/earth/earth-observatory/image-of-the-day/</link>
-    <description>The six most recent NASA Earth Observatory Images of the Day.</description>
+    <atom:link href="https://gscermak.github.io/nasa-earth-rss/feed.xml" rel="self" type="application/rss+xml" />
+    <description>The 6 most recent NASA Earth Observatory Images of the Day.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Nov 2026 23:23:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 16:32:08 +0000</lastBuildDate>
+    <item>
+      <title>Eruption Extends Iwo Jima’s Beach</title>
+      <link>https://science.nasa.gov/earth/earth-observatory/eruption-extends-iwo-jimas-beach/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/eruption-extends-iwo-jimas-beach/</guid>
+      <pubDate>Tue, 24 Nov 2026 05:01:00 +0000</pubDate>
+      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/eruption-enlarges-iwo-jima%E2%80%99s-beach/iwojima_oli2_20261111_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Eruption Extends Iwo Jima’s Beach"&gt;&lt;p&gt;A volcanic eruption just off the southeast shore of the Pacific island has reshaped the coast, but it’s unclear how long the new land will survive.&lt;/p&gt;</description>
+      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/eruption-enlarges-iwo-jima%E2%80%99s-beach/iwojima_oli2_20261111_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
+    </item>
     <item>
       <title>Laser Focus at the Top of the World</title>
       <link>https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/</link>
       <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/laser-focus-at-the-top-of-the-world/</guid>
-      <pubDate>Mon, 23 Nov 2026 00:01:00 -0500</pubDate>
+      <pubDate>Mon, 23 Nov 2026 05:01:00 +0000</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/laser-focus-at-the-top-of-the-world/svalbardzm_oli2_20260730_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Laser Focus at the Top of the World"&gt;&lt;p&gt;A next-generation geodetic instrument developed by NASA, part of a network that helps measure satellites’ orbits and the planet’s shape, has debuted in Svalbard, Norway.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/laser-focus-at-the-top-of-the-world/svalbardzm_oli2_20260730_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
@@ -18,7 +27,7 @@
       <title>The Stormy Southwest Pacific</title>
       <link>https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/</link>
       <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/the-stormy-southwest-pacific/</guid>
-      <pubDate>Fri, 20 Nov 2026 00:01:00 -0500</pubDate>
+      <pubDate>Fri, 20 Nov 2026 05:01:00 +0000</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-stormy-southwest-pacific--/cyclonexavier_amo_20261116_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="The Stormy Southwest Pacific"&gt;&lt;p&gt;Tropical Cyclone Xavier launched the basin’s storm season with a bang.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-stormy-southwest-pacific--/cyclonexavier_amo_20261116_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
@@ -26,7 +35,7 @@
       <title>El Niño Rains Paint the Atacama</title>
       <link>https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/</link>
       <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 19 Nov 2026 05:00:00 +0000</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-ni%C3%B1o-rains-paint-the-atacama/atacamabloom_oli2_20261024_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="El Niño Rains Paint the Atacama"&gt;&lt;p&gt;Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the satellite era.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-ni%C3%B1o-rains-paint-the-atacama/atacamabloom_oli2_20261024_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
@@ -34,7 +43,7 @@
       <title>Sierra Snow Season Spins Up</title>
       <link>https://science.nasa.gov/earth/earth-observatory/sierra-snow-season-spins-up/</link>
       <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/sierra-snow-season-spins-up/</guid>
-      <pubDate>Wed, 18 Nov 2026 00:01:00 -0500</pubDate>
+      <pubDate>Wed, 18 Nov 2026 05:01:00 +0000</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sierra-snow-season-spins-up/sierranevada_tmo_20261114_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Sierra Snow Season Spins Up"&gt;&lt;p&gt;A widespread, early-season snowstorm blanketed California’s mountains in white in mid-November 2026.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sierra-snow-season-spins-up/sierranevada_tmo_20261114_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
@@ -42,17 +51,9 @@
       <title>Tossing Fireworks from Cloud to Cloud</title>
       <link>https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud/</link>
       <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud/</guid>
-      <pubDate>Tue, 17 Nov 2026 00:01:00 -0500</pubDate>
+      <pubDate>Tue, 17 Nov 2026 05:01:00 +0000</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tossing-fireworks-from-cloud-to-cloud/ISS075-E-250951_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Tossing Fireworks from Cloud to Cloud"&gt;&lt;p&gt;For many astronauts, the spectacular sight of lightning stands out when looking back at Earth from the International Space Station.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tossing-fireworks-from-cloud-to-cloud/ISS075-E-250951_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
-    </item>
-    <item>
-      <title>The Last Ice on Puncak Jaya</title>
-      <link>https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/</link>
-      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/the-last-ice-on-puncak-jaya/</guid>
-      <pubDate>Mon, 16 Nov 2026 00:00:00 -0500</pubDate>
-      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_oli2_20261019_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="The Last Ice on Puncak Jaya"&gt;&lt;p&gt;Ice near the summit of the Indonesian mountain peak has shrunk to scattered patches too small to flow like glaciers.&lt;/p&gt;</description>
-      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-last-ice-on-puncak-jaya/puncakjaya_oli2_20261019_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
   </channel>
 </rss>
