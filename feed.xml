@@ -6,7 +6,15 @@
     <atom:link href="https://gscermak.github.io/nasa-earth-rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>The 6 most recent NASA Earth Observatory Images of the Day.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Nov 2026 21:55:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 21:02:28 +0000</lastBuildDate>
+    <item>
+      <title>Georgia’s Pecan Belt</title>
+      <link>https://science.nasa.gov/earth/earth-observatory/georgias-pecan-belt/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/georgias-pecan-belt/</guid>
+      <pubDate>Wed, 25 Nov 2026 05:00:00 +0000</pubDate>
+      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/georgia%E2%80%99s-pecan-belt/georgiapecans_oli_20261023_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Georgia’s Pecan Belt"&gt;&lt;p&gt;Since an early-1900s planting boom, orchards along the Flint River in southwest Georgia have become a center of U.S. pecan production.&lt;/p&gt;</description>
+      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/georgia%E2%80%99s-pecan-belt/georgiapecans_oli_20261023_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
+    </item>
     <item>
       <title>Eruption Extends Iwo Jima’s Beach</title>
       <link>https://science.nasa.gov/earth/earth-observatory/eruption-extends-iwo-jimas-beach/</link>
@@ -46,14 +54,6 @@
       <pubDate>Wed, 18 Nov 2026 05:01:00 +0000</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sierra-snow-season-spins-up/sierranevada_tmo_20261114_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Sierra Snow Season Spins Up"&gt;&lt;p&gt;A widespread, early-season snowstorm blanketed California’s mountains in white in mid-November 2026.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sierra-snow-season-spins-up/sierranevada_tmo_20261114_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
-    </item>
-    <item>
-      <title>Tossing Fireworks from Cloud to Cloud</title>
-      <link>https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud/</link>
-      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/tossing-fireworks-from-cloud-to-cloud/</guid>
-      <pubDate>Tue, 17 Nov 2026 05:01:00 +0000</pubDate>
-      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tossing-fireworks-from-cloud-to-cloud/ISS075-E-250951_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Tossing Fireworks from Cloud to Cloud"&gt;&lt;p&gt;For many astronauts, the spectacular sight of lightning stands out when looking back at Earth from the International Space Station.&lt;/p&gt;</description>
-      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/tossing-fireworks-from-cloud-to-cloud/ISS075-E-250951_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
   </channel>
 </rss>
