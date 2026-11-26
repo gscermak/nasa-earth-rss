@@ -6,7 +6,15 @@
     <atom:link href="https://gscermak.github.io/nasa-earth-rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>The 6 most recent NASA Earth Observatory Images of the Day.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2026 21:02:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 20:54:31 +0000</lastBuildDate>
+    <item>
+      <title>Seeking Refuge on Resolution Island</title>
+      <link>https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island/</guid>
+      <pubDate>Thu, 26 Nov 2026 05:01:00 +0000</pubDate>
+      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/seeking-refuge-on-resolution-island/nzresolution_oli2_20251212_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Seeking Refuge on Resolution Island"&gt;&lt;p&gt;New Zealanders have long envisioned the island as a predator-free zone for native birds, but swimming stoats have shown a resolve of their own.&lt;/p&gt;</description>
+      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/seeking-refuge-on-resolution-island/nzresolution_oli2_20251212_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
+    </item>
     <item>
       <title>Georgia’s Pecan Belt</title>
       <link>https://science.nasa.gov/earth/earth-observatory/georgias-pecan-belt/</link>
@@ -46,14 +54,6 @@
       <pubDate>Thu, 19 Nov 2026 05:00:00 +0000</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-ni%C3%B1o-rains-paint-the-atacama/atacamabloom_oli2_20261024_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="El Niño Rains Paint the Atacama"&gt;&lt;p&gt;Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the satellite era.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-ni%C3%B1o-rains-paint-the-atacama/atacamabloom_oli2_20261024_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
-    </item>
-    <item>
-      <title>Sierra Snow Season Spins Up</title>
-      <link>https://science.nasa.gov/earth/earth-observatory/sierra-snow-season-spins-up/</link>
-      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/sierra-snow-season-spins-up/</guid>
-      <pubDate>Wed, 18 Nov 2026 05:01:00 +0000</pubDate>
-      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sierra-snow-season-spins-up/sierranevada_tmo_20261114_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Sierra Snow Season Spins Up"&gt;&lt;p&gt;A widespread, early-season snowstorm blanketed California’s mountains in white in mid-November 2026.&lt;/p&gt;</description>
-      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/sierra-snow-season-spins-up/sierranevada_tmo_20261114_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
   </channel>
 </rss>
