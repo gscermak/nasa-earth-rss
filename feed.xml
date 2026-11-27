@@ -6,7 +6,15 @@
     <atom:link href="https://gscermak.github.io/nasa-earth-rss/feed.xml" rel="self" type="application/rss+xml" />
     <description>The 6 most recent NASA Earth Observatory Images of the Day.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Nov 2026 20:54:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 20:40:38 +0000</lastBuildDate>
+    <item>
+      <title>Shivelyuch Socked In</title>
+      <link>https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/</link>
+      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/</guid>
+      <pubDate>Fri, 27 Nov 2026 05:01:00 +0000</pubDate>
+      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/shivelyuch-socked-in/shivelyuchcloud_oli2_20261108_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="Shivelyuch Socked In"&gt;&lt;p&gt;A cloud layer encircled the flanks of the volcano on the Kamchatka Peninsula but left its restless summit caldera in view.&lt;/p&gt;</description>
+      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/shivelyuch-socked-in/shivelyuchcloud_oli2_20261108_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
+    </item>
     <item>
       <title>Seeking Refuge on Resolution Island</title>
       <link>https://science.nasa.gov/earth/earth-observatory/seeking-refuge-on-resolution-island/</link>
@@ -46,14 +54,6 @@
       <pubDate>Fri, 20 Nov 2026 05:01:00 +0000</pubDate>
       <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-stormy-southwest-pacific--/cyclonexavier_amo_20261116_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="The Stormy Southwest Pacific"&gt;&lt;p&gt;Tropical Cyclone Xavier launched the basin’s storm season with a bang.&lt;/p&gt;</description>
       <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/the-stormy-southwest-pacific--/cyclonexavier_amo_20261116_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
-    </item>
-    <item>
-      <title>El Niño Rains Paint the Atacama</title>
-      <link>https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/</link>
-      <guid isPermaLink="true">https://science.nasa.gov/earth/earth-observatory/el-nino-rains-paint-the-atacama/</guid>
-      <pubDate>Thu, 19 Nov 2026 05:00:00 +0000</pubDate>
-      <description>&lt;img src="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-ni%C3%B1o-rains-paint-the-atacama/atacamabloom_oli2_20261024_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" alt="El Niño Rains Paint the Atacama"&gt;&lt;p&gt;Winter precipitation helped wake dormant seeds in northern Chile, carpeting the desert with what may be the region’s most extensive flowering of the satellite era.&lt;/p&gt;</description>
-      <media:thumbnail url="https://assets.science.nasa.gov/content/dam/science/esd/eo/images/iotd/2026/el-ni%C3%B1o-rains-paint-the-atacama/atacamabloom_oli2_20261024_th.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg" />
     </item>
   </channel>
 </rss>
